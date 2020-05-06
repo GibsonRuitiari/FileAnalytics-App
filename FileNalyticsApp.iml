@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$PATH_TO_FX$" />
+        </CLASSES>
+        <JAVADOC />
+        <NATIVE>
+          <root url="file://$PATH_TO_FX$" />
+        </NATIVE>
+        <SOURCES>
+          <root url="file://$PATH_TO_FX$" />
+          <root url="file://$PATH_TO_FX$/src/javafx.base" />
+          <root url="file://$PATH_TO_FX$/src/javafx.controls" />
+          <root url="file://$PATH_TO_FX$/src/javafx.fxml" />
+          <root url="file://$PATH_TO_FX$/src/javafx.graphics" />
+          <root url="file://$PATH_TO_FX$/src/javafx.media" />
+          <root url="file://$PATH_TO_FX$/src/javafx.swing" />
+          <root url="file://$PATH_TO_FX$/src/javafx.web" />
+        </SOURCES>
+        <jarDirectory url="file://$PATH_TO_FX$" recursive="false" />
+        <jarDirectory url="file://$PATH_TO_FX$" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

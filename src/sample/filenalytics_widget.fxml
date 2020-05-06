@@ -1,0 +1,56 @@
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane fx:controller="sample.Controller" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #232323;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox fx:id="vBoxLayout" layoutX="35.0" layoutY="31.0" prefHeight="241.0" prefWidth="471.0" style="-fx-background-color: #232323;" visible="true">
+            <children>
+                <Label style="-fx-font-family: Noto Mono;" text="FileNalytics App" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Text fx:id="lastSearchTimeText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Searched Time: ">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </Text>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of empty files in your pc: " fx:id="emptyFilesText">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of empty folders in your pc:" fx:id="emptyFoldersText">
+                    <VBox.margin>
+                        <Insets top="30.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of duplicate files in your pc: " fx:id="duplicateFilesText">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="30.0" />
+                    </VBox.margin>
+                </Text>
+            </children>
+        </VBox>
+
+    </children>
+    <effect>
+        <DropShadow />
+    </effect>
+</AnchorPane>
